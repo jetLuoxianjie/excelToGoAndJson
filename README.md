@@ -1,5 +1,5 @@
 
-# excel转为go和json的工具
+# excel转为go结构体和对应可以读json的工具
 
 
 
