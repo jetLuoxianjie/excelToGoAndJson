@@ -1,0 +1,5 @@
+{
+  "excelDir": "./excel",
+  "jsonOutputDir": "./generateJsons",
+  "goOutputDir": "./generateConfig"
+}

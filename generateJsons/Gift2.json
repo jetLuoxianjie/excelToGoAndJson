@@ -1,0 +1,82 @@
+[
+  {
+    "GetSoldierNum2": [
+      10
+    ],
+    "GiftNum2": [
+      -1
+    ],
+    "Id": 1,
+    "Lobby_GiftDesML2": 9001
+  },
+  {
+    "GetSoldierNum2": [
+      100
+    ],
+    "GiftNum2": [
+      1
+    ],
+    "Id": 2,
+    "Lobby_GiftDesML2": 9002
+  },
+  {
+    "GetSoldierNum2": [
+      190
+    ],
+    "GiftNum2": [
+      1
+    ],
+    "Id": 3,
+    "Lobby_GiftDesML2": 9003
+  },
+  {
+    "GetSoldierNum2": [
+      520
+    ],
+    "GiftNum2": [
+      1
+    ],
+    "Id": 4,
+    "Lobby_GiftDesML2": 9004
+  },
+  {
+    "GetSoldierNum2": [
+      990
+    ],
+    "GiftNum2": [
+      1
+    ],
+    "Id": 5,
+    "Lobby_GiftDesML2": 9005
+  },
+  {
+    "GetSoldierNum2": [
+      1990
+    ],
+    "GiftNum2": [
+      1
+    ],
+    "Id": 6,
+    "Lobby_GiftDesML2": 9006
+  },
+  {
+    "GetSoldierNum2": [
+      2990
+    ],
+    "GiftNum2": [
+      1
+    ],
+    "Id": 7,
+    "Lobby_GiftDesML2": 9007
+  },
+  {
+    "GetSoldierNum2": [
+      5200
+    ],
+    "GiftNum2": [
+      1
+    ],
+    "Id": 8,
+    "Lobby_GiftDesML2": 9008
+  }
+]

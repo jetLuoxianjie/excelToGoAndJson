@@ -1,0 +1,114 @@
+[
+  {
+    "GetSoldierNum": [
+      10
+    ],
+    "GiftNum": [
+      -1
+    ],
+    "Id": 1,
+    "Lobby_GiftDesML": 9001,
+    "RescueInjuryNum": [
+      0,
+      0
+    ]
+  },
+  {
+    "GetSoldierNum": [
+      100
+    ],
+    "GiftNum": [
+      1
+    ],
+    "Id": 2,
+    "Lobby_GiftDesML": 9002,
+    "RescueInjuryNum": [
+      50,
+      -150
+    ]
+  },
+  {
+    "GetSoldierNum": [
+      190
+    ],
+    "GiftNum": [
+      1
+    ],
+    "Id": 3,
+    "Lobby_GiftDesML": 9003,
+    "RescueInjuryNum": [
+      0,
+      0
+    ]
+  },
+  {
+    "GetSoldierNum": [
+      520
+    ],
+    "GiftNum": [
+      1
+    ],
+    "Id": 4,
+    "Lobby_GiftDesML": 9004,
+    "RescueInjuryNum": [
+      0,
+      0
+    ]
+  },
+  {
+    "GetSoldierNum": [
+      990
+    ],
+    "GiftNum": [
+      1
+    ],
+    "Id": 5,
+    "Lobby_GiftDesML": 9005,
+    "RescueInjuryNum": [
+      0,
+      0
+    ]
+  },
+  {
+    "GetSoldierNum": [
+      1990
+    ],
+    "GiftNum": [
+      1
+    ],
+    "Id": 6,
+    "Lobby_GiftDesML": 9006,
+    "RescueInjuryNum": [
+      0,
+      0
+    ]
+  },
+  {
+    "GetSoldierNum": [
+      2990
+    ],
+    "GiftNum": [
+      1
+    ],
+    "Id": 7,
+    "Lobby_GiftDesML": 9007,
+    "RescueInjuryNum": [
+      0,
+      0
+    ]
+  },
+  {
+    "GetSoldierNum": [
+      5200
+    ],
+    "GiftNum": [
+      1
+    ],
+    "Id": 8,
+    "Lobby_GiftDesML": 9008,
+    "RescueInjuryNum": [
+      0,
+      0
+    ]
+  }
+]

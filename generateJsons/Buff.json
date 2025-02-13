@@ -1,0 +1,113 @@
+[
+  {
+    "BuffDurationType": 0,
+    "BuffType": 1,
+    "FloatArray_Param": [
+      0
+    ],
+    "Float_Param": -1,
+    "Id": 1,
+    "IntArray_Param": [
+      1,
+      3,
+      4
+    ],
+    "Int_Param": 10,
+    "NameML": 101,
+    "StringArray_Param": [
+      "3",
+      "好"
+    ],
+    "String_Param": "Empty"
+  },
+  {
+    "BuffDurationType": 0,
+    "BuffType": 1,
+    "FloatArray_Param": [
+      0
+    ],
+    "Float_Param": -1,
+    "Id": 2,
+    "IntArray_Param": [
+      0
+    ],
+    "Int_Param": 5,
+    "NameML": 101,
+    "StringArray_Param": [
+      ""
+    ],
+    "String_Param": "Empty"
+  },
+  {
+    "BuffDurationType": 0,
+    "BuffType": 1,
+    "FloatArray_Param": [
+      0
+    ],
+    "Float_Param": -1,
+    "Id": 3,
+    "IntArray_Param": [
+      0
+    ],
+    "Int_Param": 3,
+    "NameML": 101,
+    "StringArray_Param": [
+      ""
+    ],
+    "String_Param": "Empty"
+  },
+  {
+    "BuffDurationType": 1,
+    "BuffType": 2,
+    "FloatArray_Param": [
+      0
+    ],
+    "Float_Param": -1,
+    "Id": 4,
+    "IntArray_Param": [
+      0
+    ],
+    "Int_Param": 100,
+    "NameML": 3201,
+    "StringArray_Param": [
+      ""
+    ],
+    "String_Param": "Empty"
+  },
+  {
+    "BuffDurationType": 1,
+    "BuffType": 3,
+    "FloatArray_Param": [
+      0
+    ],
+    "Float_Param": -1,
+    "Id": 5,
+    "IntArray_Param": [
+      0
+    ],
+    "Int_Param": 5,
+    "NameML": 3202,
+    "StringArray_Param": [
+      ""
+    ],
+    "String_Param": "Empty"
+  },
+  {
+    "BuffDurationType": 1,
+    "BuffType": 4,
+    "FloatArray_Param": [
+      0
+    ],
+    "Float_Param": -1,
+    "Id": 6,
+    "IntArray_Param": [
+      0
+    ],
+    "Int_Param": 5,
+    "NameML": 3203,
+    "StringArray_Param": [
+      ""
+    ],
+    "String_Param": "Empty"
+  }
+]
