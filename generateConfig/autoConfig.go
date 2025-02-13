@@ -14,18 +14,18 @@ func InitConfig() {
 }
 
 type GiftConfig struct {
-	Lobby_GiftDesML int32 `json:"Lobby_GiftDesML"`
 	GiftNum []int32 `json:"GiftNum"`
 	GetSoldierNum []int32 `json:"GetSoldierNum"`
 	RescueInjuryNum []int32 `json:"RescueInjuryNum"`
 	Id int32 `json:"Id"`
+	Lobby_GiftDesML int32 `json:"Lobby_GiftDesML"`
 }
 
 var GiftListTable []*GiftConfig
 var GiftListMap sync.Map
 // 解析JSON数据到结构体
 func initGiftConfig(){
-  fileContent, err := ioutil.ReadFile("./jsons/Gift.json")
+  fileContent, err := ioutil.ReadFile("./generateJsons/Gift.json")
 	if err != nil {
         panic("Gift Error reading file:" + err.Error())
 		return
@@ -58,7 +58,7 @@ var Gift2ListTable []*Gift2Config
 var Gift2ListMap sync.Map
 // 解析JSON数据到结构体
 func initGift2Config(){
-  fileContent, err := ioutil.ReadFile("./jsons/Gift2.json")
+  fileContent, err := ioutil.ReadFile("./generateJsons/Gift2.json")
 	if err != nil {
         panic("Gift2 Error reading file:" + err.Error())
 		return
@@ -81,23 +81,23 @@ func GetGift2Config(id float64) *Gift2Config {
 
 
 type BuffConfig struct {
-	BuffType int32 `json:"BuffType"`
-	BuffDurationType int32 `json:"BuffDurationType"`
-	Int_Param int32 `json:"Int_Param"`
-	Float_Param float64 `json:"Float_Param"`
-	String_Param string `json:"String_Param"`
-	Id int32 `json:"Id"`
 	NameML int32 `json:"NameML"`
-	IntArray_Param []int32 `json:"IntArray_Param"`
 	FloatArray_Param []float64 `json:"FloatArray_Param"`
 	StringArray_Param []string `json:"StringArray_Param"`
+	Id int32 `json:"Id"`
+	BuffType int32 `json:"BuffType"`
+	BuffDurationType int32 `json:"BuffDurationType"`
+	String_Param string `json:"String_Param"`
+	Int_Param int32 `json:"Int_Param"`
+	IntArray_Param []int32 `json:"IntArray_Param"`
+	Float_Param float64 `json:"Float_Param"`
 }
 
 var BuffListTable []*BuffConfig
 var BuffListMap sync.Map
 // 解析JSON数据到结构体
 func initBuffConfig(){
-  fileContent, err := ioutil.ReadFile("./jsons/Buff.json")
+  fileContent, err := ioutil.ReadFile("./generateJsons/Buff.json")
 	if err != nil {
         panic("Buff Error reading file:" + err.Error())
 		return
