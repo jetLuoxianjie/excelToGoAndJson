@@ -63,7 +63,7 @@ func main() {
 	// 遍历所有 Excel，生成结构体
 	structs := ProcessExcelFiles(currExcelDir)
 	// 生成 Go 结构体代码
-	GenerateGoStructs(structs, currOoOutputDir)
+	GenerateGoStructs(structs, currOoOutputDir, currJsonOutputDir)
 	// 输入任意键结束
 	fmt.Println("Press any key to exit...")
 	var input string
@@ -329,9 +329,9 @@ func parseGoType(excelType string) string {
 }
 
 // 生成 Golang 结构体
-func GenerateGoStructs(configs []Config, jsonOutputDir string) {
-	os.MkdirAll(jsonOutputDir, os.ModePerm)
-	structFile := filepath.Join(jsonOutputDir, "autoConfig.go")
+func GenerateGoStructs(configs []Config, currOoOutputDir, currJsonOutputDir string) {
+	os.MkdirAll(currOoOutputDir, os.ModePerm)
+	structFile := filepath.Join(currOoOutputDir, "autoConfig.go")
 	file, err := os.Create(structFile)
 	if err != nil {
 		log.Fatalf("无法创建文件: %v", err)
@@ -377,7 +377,7 @@ var %vListTable []*%v
 var %vListMap sync.Map
 // 解析JSON数据到结构体
 func init%v(){
-  fileContent, err := ioutil.ReadFile("./jsons/%v.json")
+  fileContent, err := ioutil.ReadFile("%v/%v.json")
 	if err != nil {
         panic("%v Error reading file:" + err.Error())
 		return
@@ -397,7 +397,7 @@ func Get%v(id float64) *%v {
 	}
     return nil
 }
-`, name, cfg.Name, name, cfg.Name, name, name, name, name, name, name, cfg.Name, cfg.Name, name, cfg.Name)
+`, name, cfg.Name, name, cfg.Name, currJsonOutputDir, name, name, name, name, name, name, cfg.Name, cfg.Name, name, cfg.Name)
 		fmt.Fprintln(file, str)
 	}
 
